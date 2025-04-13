@@ -31,42 +31,6 @@ This is a simple Flask API that generates random quotes when requested. The API 
 - **API Endpoint**: `/api/quote` (returns a random quote as JSON)
 
 
-
-# Project Structure
-
-
-### Installation and Running the Project
-
-1. Clone the repository to your local machine:
-
-    
-    git clone https://github.com/your-username/quote-generator.git
-    
-
-2. Navigate to the project directory:
-
-    
-    cd quote-generator
-    
-
-3. Install the required Python dependencies (make sure you have Python 3.x installed):
-
-    
-    pip install -r requirements.txt
-    
-
-4. Run the Flask application:
-
-    
-    python app.py
-    
-
-    The app will be running on `http://127.0.0.1:5000/`.
-
-5. Open your browser and navigate to `http://127.0.0.1:5000/` to interact with the Quote Generator.
-
-
-
 # How It Works
 
 - The frontend HTML page makes a request to the `/api/quote` route using JavaScript (`fetch`).
